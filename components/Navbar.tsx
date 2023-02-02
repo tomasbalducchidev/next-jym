@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
-  const [textColor, setTextColor] = useState('white');
+  const [textColor, setTextColor] = useState('#e2e8f0');
 
   const handleNav = () => {
     setNav(!nav);
@@ -14,11 +14,11 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
         if (window.scrollY >= 90) {
-            setColor('#ffffff');
+            setColor('#e2e8f0');
             setTextColor('#000000');
         } else {
             setColor('transparent');
-            setTextColor('#ffffff');
+            setTextColor('#e2e8f0');
         }
     }
     window.addEventListener('scroll', changeColor);
@@ -37,9 +37,9 @@ const Navbar = () => {
                 <li className='p-4'>
                     <Link href='/#products'>Productos</Link>
                 </li>
-                <li className='p-4'>
+                {/* <li className='p-4'>
                     <Link href='/contact'>Contacto</Link>
-                </li>
+                </li> */}
             </ul>
 
             {/* Mobile Button */}
@@ -60,9 +60,9 @@ const Navbar = () => {
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/#products'>Productos</Link>
                     </li>
-                    <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                    {/* <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/contact'>Contacto</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>

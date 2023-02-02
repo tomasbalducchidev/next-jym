@@ -7,9 +7,9 @@ const contact = () => {
     <div>
         <Hero
             heading={'Contacto'}
-            message='Completa el formulario y nos pondremos en contacto (En desarrollo)'
+            message='Página en construcción'
         />
-        <Contact />
+        {/* <Contact /> */}
     </div>
   )
 }

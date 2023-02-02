@@ -1,9 +1,4 @@
-import Cel from '../public/assets/images/cel.jpg';
-import Case from '../public/assets/images/case.png';
-import Charger from '../public/assets/images/charger.png';
-import Headphone from '../public/assets/images/headphone.png';
-import Speaker from '../public/assets/images/speaker.png';
-import Mouse from '../public/assets/images/mouse.png';
+import Cel from '../public/assets/images/celulares.jpg';
 
 // export const SliderData = [
 //     {
@@ -28,28 +23,28 @@ import Mouse from '../public/assets/images/mouse.png';
 //     },
 //   ];
 export const SliderData = [
-    {
-      image:
-        Cel,
-    },
-    {
-      image:
-        Case,
-    },
-    {
-      image:
-        Charger,
-    },
-    {
-      image:
-        Headphone,
-    },
-    {
-      image:
-        Speaker,
-    },
-    {
-      image:
-        Mouse,
-    }
-  ];
+  {
+    image:
+      Cel,
+  },
+  {
+    image:
+      Cel,
+  },
+  {
+    image:
+      Cel,
+  },
+  {
+    image:
+      Cel,
+  },
+  {
+    image:
+      Cel,
+  },
+  {
+    image:
+      Cel,
+  }
+];

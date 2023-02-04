@@ -1,4 +1,9 @@
 import Cel from '../public/assets/images/celulares.jpg';
+import Funda from '../public/assets/images/funda.jpg';
+import Vidrio from '../public/assets/images/vidrio.jpg';
+import Cargadores from '../public/assets/images/cargadores.jpg';
+import Auris from '../public/assets/images/auris.jpg';
+import Mouse from '../public/assets/images/mouse.jpg';
 
 // export const SliderData = [
 //     {
@@ -29,22 +34,22 @@ export const SliderData = [
   },
   {
     image:
-      Cel,
+      Funda,
   },
   {
     image:
-      Cel,
+      Vidrio,
   },
   {
     image:
-      Cel,
+      Auris,
   },
   {
     image:
-      Cel,
+      Cargadores,
   },
   {
     image:
-      Cel,
+      Mouse,
   }
 ];

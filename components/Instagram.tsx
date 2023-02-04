@@ -1,5 +1,10 @@
 import React from 'react'
-import Cel from '../public/assets/images/celulares.jpg';
+import Cableiphone from '../public/assets/images/cableiphone.jpg';
+import Cables from '../public/assets/images/cables.jpg';
+import Fundaiphone from '../public/assets/images/fundaiphone.jpg';
+import Fundas from '../public/assets/images/fundas.jpg';
+import Fundass from '../public/assets/images/fundass.jpg';
+import Varios from '../public/assets/images/varios.jpg';
 import InstagramImg from './InstagramImg';
 import Link from 'next/link';
 
@@ -12,22 +17,22 @@ const Instagram = () => {
         </Link>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
         <Link href='https://www.instagram.com/jymcomunicacionesvc/'>
-          <InstagramImg socialImg={Cel} />
+          <InstagramImg socialImg={Cableiphone} />
         </Link>
         <Link href='https://www.instagram.com/jymcomunicacionesvc/'>
-          <InstagramImg socialImg={Cel} />
+          <InstagramImg socialImg={Cables} />
         </Link>
         <Link href='https://www.instagram.com/jymcomunicacionesvc/'>
-          <InstagramImg socialImg={Cel} />
+          <InstagramImg socialImg={Fundaiphone} />
         </Link>
         <Link href='https://www.instagram.com/jymcomunicacionesvc/'>
-          <InstagramImg socialImg={Cel} />
+          <InstagramImg socialImg={Fundas} />
         </Link>
         <Link href='https://www.instagram.com/jymcomunicacionesvc/'>
-          <InstagramImg socialImg={Cel} />
+          <InstagramImg socialImg={Fundass} />
         </Link>
         <Link href='https://www.instagram.com/jymcomunicacionesvc/'>
-          <InstagramImg socialImg={Cel} />
+          <InstagramImg socialImg={Varios} />
         </Link>
         </div>
     </div>
